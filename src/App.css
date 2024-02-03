@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* styles.css or Navbar component's CSS file */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  color:black;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+  color:black;
+}
+
+.tags {
+  display: flex;
+  margin-right: auto;
+  margin-left: 30px;
+}
+.navlogo{
+  margin-left: 30px;
+}
+
+.tag {
+  margin-right: 15px;
+  cursor: pointer;
+  color:black;
+  font-weight: bold;
+}
+.tag img{
+  margin-left:5px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  margin-left: 15px;
+  padding: 8px 12px;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 100px;
+  margin-right: 40px;
+
+}
+.navbar-button:hover{
+  
+    background-color: green;
+    color: white; /* Change text color on hover */
+    border-color: green; /* Change border color on hover */
+  
+}
+.navbar-button1{
+   background-color: white;
+   font-weight: bold;
+   border: none;
+}
+.h1green{
+  color: green;
+}
+.banner{
+  background-color: #F7F7F7;
+}
+.banner-content{
+  margin-top: 80px;
+  background-color: #F7F7F7;
+}
+.banner-content h1{
+  font-weight: bold;
+}
+.banner-content p{
+  font-size: 30px;
+  color: gray;
+} 
+.banner-image{
+width: 100%;
+height: 100%;
+}
+.ListItemsDiv{
+ text-align: center;
+ box-shadow: 5px 5px 5px rgb(165, 165, 62);
+ margin-bottom: 20px;
+
+
+}
+.ListItemsDiv h1{
+  width: 50%;
+  background-color: aqua;
+  margin-left: 350px;
+  box-shadow: 5px 5px 5px green;
+}
+.ListItemsDiv ul{
+  list-style-type: upper-roman;
+  box-shadow: 5px 5px 5px gray;
+margin-top: 40px;
+}
+.ListItemsDiv ul li{
+  box-shadow: 5px 5px 5px tomato;
+  padding: 10px;
+  background-color: rgb(201, 235, 156);
+  /* list-style: none; */
+}
+.footer{
+  background: #000;
+margin: 0;
+padding: 0;
+
+
+
+}
+.boxshadowForList{
+}
+.StyleThePostSession{
+  padding: 15px;
+  box-shadow: 5px 5px 5px chocolate;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;;
+}
+.StyleThePostSession:hover{
+  background-color: #ffB6C1;
+}
+.MainDivDeleteSession{
+  text-align: center;
+}
+.MainDivDeleteSession ul li button{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: red;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.MainDivDeleteSession ul li button:hover{
+  background-color: white;
+}
+
+li{
+  list-style: none;
+}
+.DataListUl{
+  /* margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10rem;
+  margin-right: 8rem; */
+  margin: 0 17rem;
+box-shadow: 5px 5px 5px gray;
+
+
+}
+.DataListUl li{
+  box-shadow: 5px 5px 5px gray;
+  margin-bottom: 5rem;
+
+
+
+}
+.DataListUl li:hover{
+  background-color: lightpink;
+
+}
+ .DataListUl button{
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  background-color: red;
+  border: none;
+  color: white;
+
+ }
+ .DataListUl li{
+  padding: 2rem;
+ }
+
